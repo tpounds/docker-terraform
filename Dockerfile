@@ -11,3 +11,4 @@ RUN mkdir -p $GOPATH/src/github.com/hashicorp/terraform && \
 WORKDIR /terraform/config
 
 ENTRYPOINT ["terraform"]
+CMD ["help"]
