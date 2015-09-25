@@ -8,5 +8,7 @@ $ docker build -t tpounds/terraform .
 
 ## Running
 ```
-$ docker run --volume /path/to/config:/terraform/config tpounds/terraform <command> [<args>]
+$ docker run \
+   --volume /path/to/config:/terraform/config \
+   tpounds/terraform <command> [<args>]
 ```
