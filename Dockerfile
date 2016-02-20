@@ -9,7 +9,7 @@ RUN git clone https://github.com/hashicorp/terraform.git . && \
     go get golang.org/x/tools/cmd/stringer && \
     make quickdev
 
-WORKDIR /terraform/config
+WORKDIR /terraform/templates
 
 ENTRYPOINT ["terraform"]
 CMD ["help"]
