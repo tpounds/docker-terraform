@@ -4,7 +4,7 @@ MAINTAINER trevor.pounds@gmail.com
 WORKDIR $GOPATH/src/github.com/hashicorp/terraform
 
 RUN git clone https://github.com/hashicorp/terraform.git . && \
-    git checkout v0.7.8 && \
+    git checkout v0.7.9 && \
     make quickdev
 
 WORKDIR /terraform/templates
