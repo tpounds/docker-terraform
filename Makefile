@@ -1,4 +1,4 @@
-DOCKER_IMAGE_TAG:=0.9.4
+DOCKER_IMAGE_TAG:=0.9.6
 DOCKER_IMAGE_NAME:=tpounds/terraform
 
 default: build
