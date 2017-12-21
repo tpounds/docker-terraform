@@ -1,4 +1,4 @@
-FROM golang:1.8.3
+FROM golang:1.9.2
 MAINTAINER trevor.pounds@gmail.com
 
 WORKDIR $GOPATH/src/github.com/hashicorp/terraform
